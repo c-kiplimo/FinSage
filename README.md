@@ -1,9 +1,9 @@
-# FinSage — Agentic RAG Financial Advisor
+# FinSage: Agentic RAG Financial Advisor
 
-> An AI-powered financial Q&A chatbot that *thinks before it answers.*
+> An AI-powered financial Q&A chatbot that thinks before it answers.
 > A Planner decides on every turn whether to retrieve knowledge from a
-> document base or lean on conversation context — no unnecessary lookups,
-> no hallucinated facts.
+> document base or lean on conversation context, with no unnecessary lookups
+> and no hallucinated facts.
 
 ---
 
@@ -38,7 +38,7 @@ If no → answer from the conversation alone, faster and cleaner.
 - How to structure a **modular AI pipeline** where every layer is swappable
 - How to manage **conversation history** properly in a stateless way
 - How to wire an LLM backend to a **Gradio chat UI**
-- Basics of **prompt engineering** — system prompts, context injection, history formatting
+- Basics of **prompt engineering**: system prompts, context injection, and history formatting
 
 ---
 
@@ -108,9 +108,9 @@ python app.py                    # opens http://localhost:7860
 - [ ] Load documents from **PDFs, URLs, or a database** instead of a hardcoded list
 - [ ] Add **streaming responses** so the answer appears word by word
 - [ ] Store chat history in **SQLite or Redis** for persistence across sessions
-- [ ] Add **source citations** — show which document each answer came from
+- [ ] Add **source citations** to show which document each answer came from
 - [ ] Evaluate retrieval quality with **RAGAS** (Retrieval Augmented Generation Assessment)
-- [ ] Add a **confidence score** — if retrieval similarity is low, say "I'm not sure"
+- [ ] Add a **confidence score** so the bot says "I'm not sure" when retrieval similarity is low
 - [ ] Deploy to **Hugging Face Spaces** for a public demo link
 - [ ] Support **document upload** so users can ask questions about their own files
 
