@@ -63,8 +63,8 @@ finsage/
 ## Quick Start
 
 ```bash
-git clone https://github.com/<your-handle>/finsage.git
-cd finsage
+git clone https://github.com/c-kiplimo/FinSage.git
+cd FinSage
 
 python -m venv .venv
 source .venv/bin/activate        # Windows: .venv\Scripts\activate
